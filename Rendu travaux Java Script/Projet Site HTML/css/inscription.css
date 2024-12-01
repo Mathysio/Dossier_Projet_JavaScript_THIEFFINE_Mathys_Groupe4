@@ -1,0 +1,52 @@
+form {
+    border: 1px solid rgba(153,153,153,0.6);
+}
+
+form > div {
+    margin: 30px 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    height: 20px;
+    width: 40%;
+}
+
+button {
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding: 10px 32px;
+    cursor: pointer;
+}
+
+.message-error {
+    border: 1px solid rgba(212,42,0,1);
+    color: rgb(212,42,0);
+    background-color:  rgba(212,42,0,0.4);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display: none
+}
+.message-success {
+    border: 1px solid rgb(81,150,2);
+    color:  rgb(81,150,2);
+    background-color: rgba(113,212,0,0.4);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display: none;
+}
+.message-error.visible {
+    display: block;
+}
+.error {
+    border: 2px solid rgba(212,42,0,0.4);
+    background-color:  rgb(212,42,0); 
+}
+.success {
+    border: 2px solid rgb(81,150,2);
+    background-color:rgba(113,212,0,0.4); 
+}

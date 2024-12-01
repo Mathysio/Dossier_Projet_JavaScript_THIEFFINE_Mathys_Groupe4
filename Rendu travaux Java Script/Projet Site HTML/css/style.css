@@ -1,0 +1,222 @@
+.d-flex {
+    display: flex;
+    margin: 50px;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.border {
+    border: 2px solid black;
+}
+
+#logo {
+    height: 50px;
+    width: 200px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+nav ul li {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+header {
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    padding: 20px;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.bg-green {
+    background-color: hsla(73, 92%, 29%, 0.785);
+}
+
+.bg-blue {
+    background-color: rgba(108, 108, 228, 0.651);
+}
+
+.bg-grey {
+    background-color: rgba(68, 61, 61, 0.24);
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+#values ul li {
+    padding: 10px;
+}
+
+.justify-content-flex-end {
+    justify-content: flex-end;
+}
+
+.w-90 {
+    width: 90px;
+}
+
+.btn-savoir-plus {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+p:hover {
+    opacity: 0.5;
+}
+
+*{
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+  
+.w200{
+    width: 200%;
+}
+  
+/* Petits appareils (mobiles en portrait) */
+@media only screen and (max-width: 480px) {
+    /* Styles pour smartphones */
+
+}
+
+/* Appareils mobiles (petit à moyen) +   Appareils mobiles (petit à moyen) */
+@media only screen and (max-width: 767px) {
+    /* Smartphone et petites tablettes */
+    #img-header {
+        display: none;
+    }
+
+    .w-50 {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Appareils mobiles (petit à moyen) */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    /* Styles pour smartphones en paysage et petites tablettes */
+}
+
+/* Tablettes */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Styles pour tablettes */
+}
+
+/* Ordinateurs portables / Écrans moyens */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    /* Styles pour ordinateurs portables */
+}
+
+/* Grands écrans */
+@media only screen and (min-width: 1201px) {
+    /* Styles pour grands écrans */
+}
+
+/* Très grands écrans / TV */
+@media only screen and (min-width: 1600px) {
+    /* Styles pour très grands écrans et télévisions */
+}
+
+.white {
+    color: white;
+}
+
+.h-90 {
+    height: 500%;
+}
+
+.gras {
+    font-weight: bolder;
+}
+
+.red {
+    color: red;
+}
+
+.body {
+    align-content: space-between;
+    padding: 100px;
+}
+
+footer {
+    text-align: center;
+}
+
+
+
+
+.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.btn-dark-mode {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 150px;
+}
+
+.dark-mode .bg-green {
+    background-color: #07561b;
+}
+
+.dark-mode .bg-blue {
+    background-color: #06114c;
+}
+
+
+
